@@ -1,0 +1,148 @@
+/* Write your CSS here */
+* {
+  box-sizing: border-box;
+  font-family: 'Roboto';
+}
+.comments-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  max-width: 1140px;
+}
+.comments-card1 {
+  display: flex;
+  justify-content: center;
+  border-bottom: 2px solid #dee0e3;
+  margin-bottom: 10px;
+}
+.comments-input-details {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+}
+.name {
+  border-radius: 5px;
+  border: 1px solid #dee0e3;
+  padding: 10px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.comment-description {
+  border-radius: 5px;
+  border: 1px solid #dee0e3;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.comments-image {
+  margin-top: 60px;
+  margin-left: 50px;
+  margin-right: 50px;
+  width: 250px;
+  height: 250px;
+}
+@media (max-width: 768px) {
+  .comments-card1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    max-width: 700px;
+    padding-bottom: 20px;
+  }
+  .comments-image {
+    margin-top: 0px;
+    width: 220px;
+    height: 220px;
+    margin-bottom: 10px;
+  }
+}
+.add-comment {
+  width: 200px;
+  color: #ffffff;
+  background-color: #0284c7;
+  border-width: 0px;
+  border-radius: 5px;
+  padding: 8px;
+}
+.comment-details-container {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start !important;
+}
+.class-comment-count {
+  background-color: #0284c7;
+  color: #ffffff;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-left: 10px;
+}
+.comments-count-text {
+  font-size: 14px;
+  padding-left: 15px;
+}
+.comments-bottom-card {
+  border-bottom: 2px solid #dee0e3;
+  margin-bottom: 10px;
+}
+.comment-bottom-container {
+  display: flex;
+}
+.name-time-container {
+  display: flex;
+  margin-bottom: -10px;
+  align-items: center;
+}
+.userDetails-container {
+  display: flex;
+  flex-direction: column;
+}
+.name-logo {
+  border-radius: 30px;
+  padding: 20px;
+  padding-top: 16px;
+  font-size: 16px;
+  height: 50px;
+  width: 50px;
+  text-align: center;
+  margin-right: 20px;
+}
+.time {
+  margin: 10px;
+  padding: 10px;
+  font-size: 14px;
+  color: #475569;
+}
+
+.comment-text {
+  margin-top: 5px;
+  font-size: 14px;
+}
+.user-name {
+  font-size: 20px;
+}
+.icon-images-component {
+  display: flex;
+  justify-content: space-between;
+}
+.like-section {
+  display: flex;
+}
+.like-image {
+  height: 22px;
+}
+.delete {
+  height: 22px;
+}
+.like-button {
+  padding-left: 15px;
+  font-size: 14px;
+  border: 0px;
+  background-color: transparent;
+}
+.delete-button {
+  border: 0px;
+  background-color: transparent;
+}
